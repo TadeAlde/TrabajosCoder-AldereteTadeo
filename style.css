@@ -1,7 +1,7 @@
 /*Mobile First*/
   body {
   background-color: #eeeeee;
-  font-family: Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   padding: 10px;
 }
@@ -30,8 +30,8 @@ header, main, footer {
 }
 
 h1 {
-  color: #333;
-  font-family: 'Oswald', sans-serif;
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
     font-size: 1.5em;
 
@@ -39,14 +39,14 @@ h1 {
 
 h2 {
   text-align: center;
-  font-family: 'Oswald', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
 
 }
 
 p {
   color: black;
-  font-family: 'Oswald', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
   margin: 20px;
 }
@@ -60,7 +60,7 @@ footer p {
 
 
 nav {
-  background-color: #58535c;
+  background-color: #E63946;
   padding: 1rem; 
   display: flex;
   justify-content: center;
@@ -83,7 +83,7 @@ nav ul li a {
   text-decoration: none;
   color: whitesmoke;
   padding: 0.3rem 0.6rem; 
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   transition: color 0.3s;
 }
 
@@ -105,18 +105,34 @@ nav ul li a:hover {
 
 .BusquedaFoto{
   text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
 }
 
-.contenedor-horizontal {
+.categorias {
   display: flex;
-  justify-content: center; 
-  gap: 20px; 
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.item {
-  text-align: center; 
+.categorias a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
 }
+
+.categoria-img {
+  border: 2px solid #FF6B6B;
+  border-radius: 8px;
+  width: 280px; 
+  transition: transform 0.3s;
+}
+
+.categoria-img:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 
 .item img {
   max-width: 20%; 
@@ -132,28 +148,29 @@ nav ul li a:hover {
 
 .sidebar{
   width: 25%;
-  background-color: grey;
+  background-color: #FF6B6B;
   padding: 20px;
 }
 
 .First-Content{
   width: 75%;
-  background-color: rgb(57, 137, 217);
+  background-color: #F9F9F9;
   padding: 20px;
 }
 .sidebar2{
   width: 25%;
-  background-color: grey;
+  background-color: #FF6B6B;
   padding: 20px;
 }
 .titulo-nosotros {
-            color: red;
+            color: #E63946;
         }
  li {
-            font-size: 1.5rem;
+            font-size: 1.5em;
+          
         }
  .titulo-FAQ {
-            color: red;
+            color: #E63946;
             text-align: center;
         }   
  .PreguntasFAQ{
@@ -166,13 +183,13 @@ nav ul li a:hover {
             margin-top: 0.25rem;
         }
 .titulo-contacto {
-            color: red;
+            color: #E63946;
             text-align: center;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
         }
 .ListadoContacto{
             font-size: 1.2rem;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
             margin: 5px;
             padding-left: 0; 
             text-indent: 0%;
@@ -216,7 +233,7 @@ grid-template-columns: repeat(6, 200px);
 
 /*Modificador*/
 .profile-card__button--primary{
-    background-color: rgb(57, 137, 217);
-    color: #fff;
+    background-color: #E63946;
+    color: #FFFFFF;
     border: none;
 }
