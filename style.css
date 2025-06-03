@@ -18,6 +18,8 @@
     padding: 40px;
     font-size: 20px;
   }
+
+ 
   .ProductoZapatillas {
     width: 50%;
   }
@@ -130,7 +132,6 @@ nav ul li a:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-
 .item img {
   max-width: 20%; 
   height: auto;
@@ -152,12 +153,12 @@ nav ul li a:hover {
             text-align: center;
         }   
  .PreguntasFAQ{
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             font-weight: bold;
             margin-bottom: 0.5rem;
         }     
  .RespuestasFAQ{
-            font-size: 1.5rem;
+            font-size: 1rem;
             margin-top: 0.25rem;
         }
 .titulo-contacto {
@@ -175,6 +176,7 @@ nav ul li a:hover {
         }
 .CuestionarioContacto {
             margin-bottom: 10px;
+            text-align: left;
         }
 .grid-container{
 display: grid;
