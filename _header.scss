@@ -1,0 +1,49 @@
+header {
+  padding: 10px;
+  text-align: center;
+}
+
+.logotipoHeader {
+  display: block;
+  max-width: 300px;
+  margin: 1.25rem auto;
+}
+
+.TituloInicio {
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+// NAV
+nav {
+  background-color: $color-primario;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: $blanco;
+  padding: 0.3rem 0.6rem;
+  font-family: $fuente-principal;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: $color-hover;
+}
