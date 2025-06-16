@@ -1,3 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+header {
+  padding: 10px;
+  text-align: center;
+}
 
-/*# sourceMappingURL=style.css.map */
+.logotipoHeader {
+  display: block;
+  max-width: 300px;
+  margin: 1.25rem auto;
+}
+
+.TituloInicio {
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+/*NAV*/
+nav {
+  background-color: #E63946;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 0.3rem 0.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+}
+
+.contenedor-horizontal {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.categorias {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.categorias a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+
+.categorias a:hover {
+  transform: scale(1.05);
+}
+
+.categoria-img {
+  width: 200px;
+  height: auto;
+  background-color: #E63946;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #E63946;
+  color: whitesmoke;
+}
+
+footer p {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.TituloInicio {
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.product-card {
+  background: white;
+  padding: 0.7rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.titulo-contacto {
+  color: #E63946;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ListadoContacto {
+  font-size: 1.2rem;
+  list-style-type: none;
+}
+
+.titulo-FAQ {
+  color: #E63946;
+  text-align: center;
+}
+
+.PreguntasFAQ {
+  font-size: 1.5rem;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */

@@ -1,3 +1,5 @@
+@use 'variables';
+
 header {
   padding: 10px;
   text-align: center;
@@ -15,7 +17,7 @@ header {
   text-align: center;
 }
 
-// NAV
+/*NAV*/
 nav {
   background-color: $color-primario;
   padding: 1rem;
@@ -46,4 +48,38 @@ nav ul li a {
 
 nav ul li a:hover {
   color: $color-hover;
+}
+
+.contenedor-horizontal {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.categorias {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.categorias a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+
+.categorias a:hover {
+  transform: scale(1.05);
+}
+
+.categoria-img {
+  width: 200px;
+  height: auto;
+  background-color: $color-primario;
+  padding: 1rem;
+  border-radius: 12px;
 }
