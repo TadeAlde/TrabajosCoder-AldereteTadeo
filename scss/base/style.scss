@@ -1,13 +1,13 @@
-@import 'variables'; 
-@import 'reset';     
-@import 'header';
-@import 'footer';
-@import 'home';
-@import 'productos';
-@import 'contacto';
-@import 'faq';
-@import 'mixins';
-@import 'extends' ;
+@import '../utils/variables';
+@import '..//utils/mixins';
+@import '..//utils/extends' ;
+@import '..//layout/reset';     
+@import '..//layout/header';
+@import '..//layout/footer';
+@import '..//pages/home';
+@import '..//pages/productos';
+@import '..//pages/contacto';
+@import '..//pages/faq';
 
 
 
