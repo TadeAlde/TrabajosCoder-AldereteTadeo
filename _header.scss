@@ -53,7 +53,6 @@ nav ul li a:hover {
 .contenedor-horizontal {
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
 }
 
 .categorias {
@@ -82,4 +81,20 @@ nav ul li a:hover {
   background-color: $color-primario;
   padding: 1rem;
   border-radius: 12px;
+}
+
+.seccionCategorias{
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.EsloganTitulo{
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.Subeslogan{
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
 }
